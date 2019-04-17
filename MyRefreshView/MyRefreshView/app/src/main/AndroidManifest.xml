@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myrefreshview">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".simple.activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".simple.activity.CustomViewActivity" />
+        <activity android:name=".simple.activity.GridViewActivity" />
+        <activity android:name=".simple.activity.ListViewActivity" />
+        <activity android:name=".simple.activity.WebViewActivity" />
+        <activity android:name=".simple.activity.LinearRecyclerViewActivity" />
+        <activity android:name=".simple.activity.BannerRecyclerViewActivity" />
+        <activity android:name=".simple.activity.ScrollViewActivity" />
+        <activity android:name=".simple.activity.HeadAdActivity" />
+        <activity android:name=".simple.activity.RainDropActivity" />
+        <activity android:name=".simple.activity.RecyclerViewsActivity" />
+        <activity android:name=".simple.activity.GridRecyclerViewActivity" />
+        <activity android:name=".simple.activity.StaggeredRecyclerViewActivity" />
+        <activity android:name=".simple.activity.SilenceRecyclerViewActivity" />
+        <activity android:name=".simple.activity.NotFullScreenActivity" />
+        <activity android:name=".simple.activity.EmptyViewActivity" />
+        <activity android:name=".simple.activity.MultiItemRecyclerViewActivity" />
+        <activity android:name=".simple.activity.ShowFooterRecyclerViewActivity" />
+        <activity android:name=".simple.activity.NotFullScreenWithoutFooterActivity" />
+        <activity android:name=".simple.activity.SmileViewActivity" />
+    </application>
+
+</manifest>
